@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.book h2 {
+    margin-top: 0;
+}
+
+.book p {
+    margin-bottom: 10px;
+}
+
+.book button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background-color: #45a049;
+}
+
+.book-image {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#cart {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart li {
+    margin-bottom: 5px;
+}
+
+#cart button {
+    background-color: #f44336;
+    color: white;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#cart button:hover {
+    background-color: #d32f2f;
+}
